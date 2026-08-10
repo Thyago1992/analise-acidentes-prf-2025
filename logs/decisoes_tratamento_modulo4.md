@@ -1,7 +1,7 @@
 
 # Decisões de tratamento — Módulo 4
 
-Data de geração: 2026-08-10 21:48
+Data de geração: 2026-08-10 22:02
 
 ## Principais decisões
 - Nomes de colunas padronizados para minúsculas, sem acentos e com underline.
