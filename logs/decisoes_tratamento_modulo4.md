@@ -1,7 +1,7 @@
 
 # Decisões de tratamento — Módulo 4
 
-Data de geração: 2026-08-09 12:45
+Data de geração: 2026-08-10 21:48
 
 ## Principais decisões
 - Nomes de colunas padronizados para minúsculas, sem acentos e com underline.
@@ -19,4 +19,3 @@ Data de geração: 2026-08-09 12:45
 - dados_tratados/base_analitica_prf_2025.csv
 - dados_tratados/base_modelavel_prf_2025.csv
 - dados_tratados/dicionario_variaveis_modulo4.csv
-
