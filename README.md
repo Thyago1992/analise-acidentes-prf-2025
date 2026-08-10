@@ -13,6 +13,21 @@ de acidente, fase do dia, condição meteorológica e tipo de pista.
 
 ## Conteúdo do repositório
 
+### Compreensão do negócio
+
+Documento que define o problema central, o objetivo analítico, o público-alvo,
+a variável-alvo, a classificação inicial das variáveis, as perguntas
+orientadoras, as hipóteses e as limitações do projeto. É a bússola das demais
+etapas. Documento em `docs/01_compreensao_negocio.md`.
+
+### Exploração inicial em Excel
+
+Planilha com a primeira leitura da base: dados importados, dicionário
+resumido, tabelas dinâmicas e gráficos exploratórios, além das observações
+registradas durante a exploração. Foi onde as primeiras hipóteses ganharam
+evidência antes de partir para SQL e Python. Planilha em
+`excel/modulo_02_excel_prf_thyago_antonio.xlsx`.
+
 ### Consultas SQL
 
 Consultas SQL sobre a base bruta, com resultados exportados em CSV.
@@ -31,14 +46,21 @@ data leakage (para a árvore de decisão). Notebook em
 ```
 projeto_prf/
 ├── dados_brutos/     # CSV original da PRF (nunca sobrescrever)
+├── excel/            # planilha de exploração inicial
 ├── sql/              # script SQL comentado
 ├── resultados/       # consultas exportadas em CSV
 ├── notebooks/        # notebook de preparação de dados
 ├── dados_tratados/   # base analítica e base modelável
-└── docs/             # dicionários de dados e decisões de tratamento
+└── docs/             # compreensão do negócio, dicionários e decisões de tratamento
 ```
 
 ## Como reproduzir
+
+### Exploração em Excel
+
+1. Abra `excel/modulo_02_excel_prf_thyago_antonio.xlsx`.
+2. As tabelas dinâmicas e os gráficos já estão calculados sobre a aba `dados`.
+   Se quiser recalcular, use Dados > Atualizar Tudo.
 
 ### Consultas SQL
 
@@ -55,5 +77,6 @@ projeto_prf/
 3. As bases geradas devem bater com as já exportadas em
    `dados_tratados/`.
 
-Mais detalhes sobre as colunas e decisões tomadas na análise estão em
+O contexto e as decisões de negócio estão em `docs/01_compreensao_negocio.md`.
+Mais detalhes sobre as colunas e decisões técnicas tomadas na análise estão em
 `docs/dicionario_dados.md` e `docs/decisoes_tratamento_modulo4.md`.
