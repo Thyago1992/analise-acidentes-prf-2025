@@ -64,7 +64,7 @@ projeto_prf/
 
 ### Consultas SQL
 
-1. Importe `dados_brutos/acidentes_prf_2025.csv` no SQLite (ou
+1. Importe `dados_brutos/acidentes2025.csv` no SQLite (ou
    SQLiteOnline) como tabela `acidentes_prf_2025`.
 2. Rode `sql/modulo3_prf.sql` do início ao fim.
 3. Os resultados batem com os arquivos já exportados em `resultados/`.
